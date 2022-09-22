@@ -8,9 +8,9 @@ import {
   StyleSheet,
   View,
   Text,
-  TextInput,
-  ViewPropTypes,
+  TextInput
 } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 // Fallback when RN version is < 0.44
 const viewPropTypes = ViewPropTypes || View.propTypes;
